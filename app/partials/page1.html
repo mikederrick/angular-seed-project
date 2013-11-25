@@ -1,3 +1,10 @@
 <div>
-  <h1>{{ page }}</h1>
+  <h1>People</h1>
+  <div ng-repeat="person in people">
+  	<div>{{person.firstName}} {{person.lastName}}</div>
+  </div>
+  <h1>Ordered People</h1>
+  <div ng-repeat="person in orderedPeople">
+  	<div>{{person.firstName}} {{person.lastName}}</div>
+  </div>
 </div>
